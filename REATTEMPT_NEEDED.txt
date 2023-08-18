@@ -6,3 +6,4 @@ Problems that I failed:
 380. Insert Delete GetRandom O(1)
 432. All O`one Data Structure
 325. Maximum Size Subarray Sum Equals k
+490. The Maze
