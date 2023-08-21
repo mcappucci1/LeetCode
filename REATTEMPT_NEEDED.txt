@@ -8,3 +8,5 @@ Problems that I failed:
 325. Maximum Size Subarray Sum Equals k
 490. The Maze
 225. Implement Stack using Queues
+788. Rotated Digits
+849. Maximize Distance to Closest Person
