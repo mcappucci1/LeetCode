@@ -12,3 +12,4 @@ Problems that I failed:
 849. Maximize Distance to Closest Person
 459. Repeated Substring Pattern
 486. Predict the Winner
+958. Check Completeness of a Binary Tree
