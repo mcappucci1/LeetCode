@@ -1,6 +1,5 @@
 Problems that I failed:
 
-1079. Letter Tile Possibilities
 215. Kth Largest Element in Array
 380. Insert Delete GetRandom O(1)
 432. All O`one Data Structure
