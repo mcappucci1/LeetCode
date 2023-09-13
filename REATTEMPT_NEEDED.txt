@@ -15,3 +15,6 @@ Problems that I failed:
 289. Game of Life
 92. Reverse Linked List II
 1359. Count All Valid Pickup and Delivery Options
+1647. Minimum Deletions to Make Character Frequencies Unique
+135. Candy
+
