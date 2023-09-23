@@ -17,4 +17,11 @@ Problems that I failed:
 1359. Count All Valid Pickup and Delivery Options
 1647. Minimum Deletions to Make Character Frequencies Unique
 135. Candy
-
+1337. The K Weakest Rows in a Matrix
+1042. Flower Planting With No Adjacent
+1079. Letter Tile Possibilities
+1185. Day of the Week
+232. Implement Queue using Stacks
+496. Next Greater Element I
+1258. Synonymous Sentences
+287. Find the Duplicate Number
