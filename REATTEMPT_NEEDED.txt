@@ -25,3 +25,5 @@ Problems that I failed:
 496. Next Greater Element I
 1258. Synonymous Sentences
 287. Find the Duplicate Number
+236. Lowest Common Ancestor of a Binary Tree
+973. K Closest Points to Origin
