@@ -27,3 +27,5 @@ Problems that I failed:
 287. Find the Duplicate Number
 236. Lowest Common Ancestor of a Binary Tree
 973. K Closest Points to Origin
+295. Find Median from Data Stream
+22. Generate Parentheses
