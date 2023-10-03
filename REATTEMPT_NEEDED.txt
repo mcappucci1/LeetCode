@@ -30,3 +30,4 @@ Problems that I failed:
 295. Find Median from Data Stream
 22. Generate Parentheses
 77. Combinations
+300. Longest Increasing Subsequence
