@@ -31,3 +31,10 @@ Problems that I failed:
 22. Generate Parentheses
 77. Combinations
 300. Longest Increasing Subsequence
+403. Frog Jump
+1302. Deepest Leaves Sum
+760. Find Anagram Mappings
+2742. Painting the Walls
+740. Delete and Earn
+1466. Reorder Routes to Make All Paths Lead to the City Zero
+1237. Find Positive Integer Solution for a Given Equation
