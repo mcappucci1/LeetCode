@@ -1,6 +1,5 @@
 Problems that I failed:
 
-380. Insert Delete GetRandom O(1)
 432. All O`one Data Structure
 325. Maximum Size Subarray Sum Equals k
 490. The Maze
@@ -43,3 +42,4 @@ Problems that I failed:
 361. Bomb Enemy
 117. Populating Next Right Pointers in Each Node II
 373. Find K Pairs with Smallest Sums
+1057. Campus Bikes
