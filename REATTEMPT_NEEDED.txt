@@ -1,6 +1,5 @@
 Problems that I failed:
 
-486. Predict the Winner
 958. Check Completeness of a Binary Tree
 160. Intersection of Two Linked Lists
 289. Game of Life
@@ -41,3 +40,4 @@ Problems that I failed:
 459. Repeated Substring Pattern
 2785. Sort Vowels in a String
 1930. Unique Length-3 Palindromic Subsequences
+486. Predict the Winner

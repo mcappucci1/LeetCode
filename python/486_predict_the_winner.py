@@ -1,20 +1,13 @@
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
 
-        def recSolve(nums, score1, score2, turn1):
-            if len(nums) == 0:
-                return score1 >= score2
-            if turn1:
-                return (
-                    recSolve(nums[1:], score1 + nums[0], score2, False) or
-                    recSolve(nums[:-1], score1 + nums[-1], score2, False)
-                )
-            else:
-                return (
-                    recSolve(nums[1:], score1, score2 + nums[0], True) and
-                    recSolve(nums[:-1], score1, score2 + nums[-1], True)
-                )
-
+        n = len(nums)
         
+        memo = [0] * (n+1)
 
-        return recSolve(nums, 0, 0, True)
+        for l in range(n-1, -1, -1):
+            for r in range(l, n+1):
+                if l <= r-1:
+                    memo[r] = max(nums[l] - memo[r], nums[r-1] - memo[r-1])
+
+        return memo[-1] >= 0
