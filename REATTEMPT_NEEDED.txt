@@ -41,3 +41,4 @@ Problems that I failed:
 2785. Sort Vowels in a String
 1930. Unique Length-3 Palindromic Subsequences
 486. Predict the Winner
+2534. Time Taken to Cross the Door
