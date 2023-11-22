@@ -1,0 +1,12 @@
+class Solution:
+    def findDiagonalOrder(self, nums: List[List[int]]) -> List[int]:
+        q = deque([(0,0)])
+        result = []
+        while q:
+            row, col = q.popleft()
+            result.append(nums[row][col])
+            if col == 0 and row + 1 < len(nums):
+                q.append((row+1, col))
+            if col + 1 < len(nums[row]):
+                q.append((row, col+1))
+        return result
