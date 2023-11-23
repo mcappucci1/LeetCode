@@ -44,3 +44,4 @@ Problems that I failed:
 105. Construct Binary Tree from Preorder and Inorder Traversal
 1155. Number of Dice Rolls With Target Sum
 2519. Count the Number of K-Big Indices
+402. Remove K Digits
