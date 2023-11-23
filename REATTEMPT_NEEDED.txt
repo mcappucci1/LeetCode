@@ -1,6 +1,5 @@
 Problems that I failed:
 
-958. Check Completeness of a Binary Tree
 160. Intersection of Two Linked Lists
 289. Game of Life
 92. Reverse Linked List II
