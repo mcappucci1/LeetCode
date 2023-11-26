@@ -45,3 +45,4 @@ Problems that I failed:
 1155. Number of Dice Rolls With Target Sum
 2519. Count the Number of K-Big Indices
 402. Remove K Digits
+1727. Largest Submatrix With Rearrangements
