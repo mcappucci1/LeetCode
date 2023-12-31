@@ -49,3 +49,4 @@ Problems that I failed:
 2638. Count the Number of K-Free Subsets
 606. Construct String from Binary Tree
 172. Factorial Trailing Zeroes
+1335. Minimum Difficulty of a Job Schedule
