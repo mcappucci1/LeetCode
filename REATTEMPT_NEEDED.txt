@@ -51,3 +51,5 @@ Problems that I failed:
 172. Factorial Trailing Zeroes
 1335. Minimum Difficulty of a Job Schedule
 72. Edit Distance
+1011. Capacity To Ship Packages Within D Days
+1066. Campus Bikes II
