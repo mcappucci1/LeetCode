@@ -55,3 +55,4 @@ Problems that I failed:
 1066. Campus Bikes II
 939. Minimum Area Rectangle
 446. Arithmetic Slices II - Subsequence
+2385. Amount of Time for Binary Tree to Be Infected
