@@ -6,14 +6,13 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        # Want to return array of right most element of each layer
-        
+
         if not root:
             return []
         
         right_view = []
         stack = [(root, 0)]
-        
+
         while stack:
             node, level = stack.pop()
             if level == len(right_view):
@@ -22,5 +21,5 @@ class Solution:
                 stack.append((node.left, level+1))
             if node.right:
                 stack.append((node.right, level+1))
-                
+
         return right_view
