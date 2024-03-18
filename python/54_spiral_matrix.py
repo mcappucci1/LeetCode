@@ -5,31 +5,34 @@ class Solution:
         n = len(matrix[0])
 
         result = []
+        r_t, r_b, c_l, c_r = 0, m-1, 0, n-1
 
-        r_lo, r_hi = 0, m-1
-        c_lo, c_hi = 0, n-1
+        while (r_t <= r_b) and (c_l <= c_r):
+            # top row
+            for c in range(c_l, c_r+1):
+                result.append(matrix[r_t][c])
+            r_t += 1
 
-        while r_lo <= r_hi and c_lo <= c_hi:
-            # Add top row
-            for c in range(c_lo, c_hi+1):
-                result.append(matrix[r_lo][c])
-            r_lo += 1
-            
-            # Add last column
-            for r in range(r_lo, r_hi+1):
-                result.append(matrix[r][c_hi])
-            c_hi -= 1
+            if r_t > r_b:
+                break
 
-            # Add bottom row
-            if r_lo <= r_hi:
-                for c in range(c_hi, c_lo-1, -1):
-                    result.append(matrix[r_hi][c])
-                r_hi -= 1
+            # right column
+            for r in range(r_t, r_b+1):
+                result.append(matrix[r][c_r])
+            c_r -= 1
 
-            # Add first column
-            if c_lo <= c_hi:
-                for r in range(r_hi, r_lo-1, -1):
-                    result.append(matrix[r][c_lo])
-                c_lo += 1
-        
+            if c_r < c_l:
+                break
+
+            # bottom row
+            for c in range(c_r, c_l-1, -1):
+                result.append(matrix[r_b][c])
+            r_b -= 1
+
+            # left column
+            for r in range(r_b, r_t-1, -1):
+                result.append(matrix[r][c_l])
+            c_l += 1
+
+
         return result
